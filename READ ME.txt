@@ -1,0 +1,15 @@
+Bonjour !
+
+Pour lancer le programme, il suffit simplement de lancer le fichier "interface". Tout est ensuite dans le __main__ ! :)
+
+Laissez vous guider au fil des boutons pour commencer une nouvelle partie ou en charger une pré-sauvegardée.
+
+Pour tirer :
+il suffit de cliquer sur le plateau. La position du clic determine la force et l'angle à laquelle la balle est envoyée.
+La souris symbolise la queue du billard et trace un vecteur vitesse imaginaire entre le clic et la balle pour la lancer.
+Plus le vecteur est grand, plus la force sera grande.
+
+
+Pour lancer une partie avec plus de billes : 
+il suffit d'aller chercher la ligne :  window = BillardUI() dans le __main__ de l'interface.
+Puis de mettre dans les parenthèses le nombre voulu de balles (supérieur ou égal à 3)
